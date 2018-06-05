@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Selectors</title>
+	<meta charset="utf-8"/>
+	<style>
+		h1{
+			color: yellow;
+			background-color: purple;
+			text-transform: uppercase;
+			/*h1 viết hoa*/
+			font-size: 15px;
+		}
+
+		h2{
+			color: red;
+			background-color: yellow;
+			text-transform: capitalize;
+			/*h2 viết hoa các chữ cái đầu*/
+		}
+		/*ID selectors*/
+		#ngành{
+			color: blue;
+		}
+		#quê{
+			color: green;
+		}
+		/*class selectors*/
+		.nganhvaque{
+			background-color: grey;
+		}
+		
+	</style>
+</head>
+<body>
+	<h1>
+		Thẻ sinh viên
+	</h1>
+	<h2>
+		Trường Đại học Bách khoa Hà Nội
+	</h2>
+	<h3>
+		<pre>Họ tên: Nguyễn Nam Đàn
+Lớp: TƯD.01
+Khóa: K62</pre>
+		<p id="ngành" class="nganhvaque">
+			Ngành: Toán ứng dụng và Tin học
+		</p>
+		<p id="quê" class="nganhvaque">
+			Quê: Ân Thi - Hưng Yên 
+		</p>
+	</h3>
+	<h6>
+		<p style="font-size: 2em;text-transform: uppercase; ">
+		thẻ h6 lớn hơn thẻ h1	
+		</p>
+	</h6>
+
+</body>
+</html>
