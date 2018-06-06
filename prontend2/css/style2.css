@@ -1,0 +1,8 @@
+b.hocphi::before{
+	content: "Học phí "
+}
+/*chèn học phí trức thẻ<b>*/
+b.hocphi::after{
+	content: "vnđ"
+}
+/*sau*/
