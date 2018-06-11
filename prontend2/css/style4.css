@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+#menu a{
+	font-size: 20px;
+	color: green;
+	text-decoration: none;
+}
+#menu a:hover {
+	color: blue;
+}
+
+.box{
+	margin: 2px;
+	float: left;
+	width: 33%;
+}
+.img{
+	width: 100%;
+	height: auto;
+}
+.anhnen{
+	width: 100%;
+}
+#bao{
+	max-width: 1500px;
+	margin: auto;
+}
+#menu{
+	text-align: center;
+	margin: 10px;
+}
+
